@@ -36,6 +36,8 @@ Dataset contain a CSV file of black and white labeled 48x48 images from the FER2
 755 - Disgust (1.52%) Emotion: 1  
 The CSV contains 3 columns Emotion, Pixels and Usage.  
 (https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition)  
+## Conclusion  
+The project successfully leverages Conditional Generative Adversarial Networks (CGANs) and Auxiliary Classifier Generative Adversarial Networks (ACGANs) to generate realistic black and white facial images corresponding to specific emotion labels. By training these models on the fer2013 dataset, the system achieves the objective of synthesizing diverse and expressive facial expressions. Through rigorous evaluation, analysis, and optimization, the project demonstrates the effectiveness of GANs in generating high-quality facial images with fine-grained control over emotions.  
 ## Refrences  
 https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition  
 https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/  
