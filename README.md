@@ -35,4 +35,9 @@ Dataset contain a CSV file of black and white labeled 48x48 images from the FER2
 4,379 - Surprised (8.82%) Emotion: 5  
 755 - Disgust (1.52%) Emotion: 1  
 The CSV contains 3 columns Emotion, Pixels and Usage.  
-(https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition)
+(https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition)  
+## Refrences  
+https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition  
+https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/  
+https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/  
+https://www.geeksforgeeks.org/conditional-generative-adversarial-network/
