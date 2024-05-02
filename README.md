@@ -13,8 +13,9 @@ The objective of this project is to utilize Generative Adversarial Networks (GAN
 
 ## Architecture  
 We have used two primary architectures for expression-based facial image generation:  
-**Conditional GAN (cGAN):** In this architecture, the generator takes both a random noise vector and a conditional label representing the desired expression as input. The discriminator evaluates the generated images based on both their realism and whether they match the specified expression label.  
-<img width="383" alt="Screenshot 2024-05-02 at 8 42 32 PM" src="https://github.com/PrishaGorakh/GAN-RMFC-Div-A-FacialExpression/assets/124128845/f4e42bc0-35b1-4966-a893-b1ff2e31da02">
+**Conditional GAN (cGAN):** In this architecture, the generator takes both a random noise vector and a conditional label representing the desired expression as input. The discriminator evaluates the generated images based on both their realism and whether they match the specified expression label.
+<p align="center">
+<img width="383" alt="Screenshot 2024-05-02 at 8 42 32 PM" src="https://github.com/PrishaGorakh/GAN-RMFC-Div-A-FacialExpression/assets/124128845/f4e42bc0-35b1-4966-a893-b1ff2e31da02"></p>
 
 **Auxiliary Classifier GAN (ACGAN):** ACGAN extends the cGAN architecture by introducing an auxiliary classifier in the discriminator. This classifier not only distinguishes between real and fake images but also predicts the expression label associated with the generated images.  
 <img width="383" alt="Screenshot 2024-05-02 at 8 43 27 PM" src="https://github.com/PrishaGorakh/GAN-RMFC-Div-A-FacialExpression/assets/124128845/c11ece85-7a08-4a3f-aba2-589a2612a2d9">
