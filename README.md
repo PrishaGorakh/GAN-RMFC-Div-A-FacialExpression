@@ -9,6 +9,7 @@ The objective of this project is to utilize Generative Adversarial Networks (GAN
 2.Incorporate specific emotion labels (happy, neutral, sad, angry, fear, surprised, disgust) to guide the generation process, enabling the creation of diverse facial expressions.  
 3.Train the GAN models on the fer2013 dataset to develop a system capable of synthesizing expressive facial images corresponding to different emotions, advancing research in emotion recognition and synthesis.  
 ## Flowchart  
+<img width="861" alt="Screenshot 2024-05-02 at 8 40 51 PM" src="https://github.com/PrishaGorakh/GAN-RMFC-Div-A-FacialExpression/assets/124128845/b45c1326-a309-4456-889e-f115da2f43a9">
 
 ## Architecture  
 We have used two primary architectures for expression-based facial image generation:  
